@@ -38,7 +38,7 @@ mvn clean package
 java -jar target/backend-app-1.0.0-RELEASE.jar --spring.profiles.active=dev
 ```
 
-In development mode, the frontend will run on port `8081`.
+In development mode, the frontend will run on port `8081`. Navigate to `http://localhost:8081` in your browser.
 
 ## Building for Production
 To create and launch the containerized production-ready app, navigate to the `production` folder and run the following command:

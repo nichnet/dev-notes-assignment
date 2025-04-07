@@ -19,7 +19,7 @@ To launch the containerized database, navigate to the `notes-database` folder an
 ```bash
 docker-compose up --build
 ```
-In development mode, the datbase container will expose the mysql instance on port `3037`.
+In development mode, the database container will expose the mysql instance on port `3037`.
 
 ### Backend
 To launch the backend you can run the application from the IDE **or** package it and run the built JAR (found in the target folder) with the `dev` profile.

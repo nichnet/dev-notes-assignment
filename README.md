@@ -6,11 +6,11 @@ This notes application is written in Java (Spring Boot 2) and uses MySQL.
 
 ## Prerequisites
 Ensure the following are installed on your local machine:
-Development:
-- [OpenJDK 17](https://openjdk.org/projects/jdk/17/) (for both the backend/frontend apps)
-- Maven (for building)
-  evelopment and Production:
-- Docker (for the dev database container and production setup, optionally install [Docker Desktop](https://www.docker.com/products/docker-desktop/))
+- Development:
+  - [OpenJDK 17](https://openjdk.org/projects/jdk/17/) (for both the backend/frontend apps)
+  - Maven (for building)
+- Development and Production:
+  - Docker (for the dev database container and production setup, optionally install [Docker Desktop](https://www.docker.com/products/docker-desktop/))
 
 ## Running in Development Mode
 

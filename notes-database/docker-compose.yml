@@ -1,0 +1,20 @@
+services:
+  mysql:
+    image: mysql:8.0.30
+    container_name: database
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3307:3306
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./my.cnf:/etc/mysql/my.cnf
+    networks:
+      - mysql-network
+networks: # Expose to the host machine for debugging purposes.
+  mysql-network:
+    driver: bridge
+volumes:
+  mysql-data:
+    driver: local

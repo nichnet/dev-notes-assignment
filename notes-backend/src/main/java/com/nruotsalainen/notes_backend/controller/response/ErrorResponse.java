@@ -1,0 +1,24 @@
+package com.nruotsalainen.notes_backend.controller.response;
+
+public final class ErrorResponse {
+    private final String error;
+    private final String message;
+
+    public ErrorResponse(String error, String message) {
+        this.error = error;
+        this.message = message;
+    }
+
+    public String getError() {
+        return error;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    @Override
+    public String toString() {
+        return "Error: \"" + getError() + "\", Message: \"" + getMessage() + "\"";
+    }
+}

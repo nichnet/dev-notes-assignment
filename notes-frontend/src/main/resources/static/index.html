@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="RoomBoss Notes App - Nick Ruotsalainen" />
+        <meta charset="utf-8">
+        <title>Notes - Nick Ruotsalainen</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Nick's Notes</h1>
+            <div>
+                <form class="note border" id="notesForm">
+                    <input type="text" class="border" id="value" name="value" placeholder="Write a note..." required>
+                    <button class="border" type="submit">Save</button>
+                </form>
+            </div>
+            <div id="notesList">
+                <div class="note border">
+                    <p>No notes yet...</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

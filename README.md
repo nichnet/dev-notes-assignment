@@ -42,13 +42,16 @@ In development mode, the frontend will run on port `8081`.
 
 ## Building for Production
 To create and launch the containerized production-ready app, navigate to the `production` folder and run the following command:
+
 **Important:** You may have to delete the existing development database container first.
 ```bash
 docker-compose up --build
 ```
 
 Only the frontend will be exposed on port `80`. Navigate to `http://localhost:80` in your browser.
+
 **Important:** There is no HTTPS for this project, ensure the connection is HTTP.
+
 **Important:** Wait a while for services to fully start.
 
 ## Testing
@@ -58,4 +61,5 @@ To run the tests you can simply run the following command:
 mvn test
 ```
 These integration tests connect to the actual development backend and database.
+
 **Important:** Make sure both the development backend service and the database are running before executing tests, or they will fail.

@@ -46,7 +46,8 @@ To create and launch the containerized production-ready app, navigate to the `pr
 docker-compose up --build
 ```
 
-Only the frontend will be exposed on port `80`.
+Only the frontend will be exposed on port `80`. Navigate to `http://localhost:80` in your browser.
+**Important:** There is no HTTPS for this project, ensure the connection is HTTP.
 **Important:** Wait a while for services to fully start.
 
 ## Testing

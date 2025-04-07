@@ -26,7 +26,7 @@ To launch the backend you can run the application from the IDE **or** package it
 Navigate to the `notes-backend` folder and run the following commands:
 ```bash
 mvn clean package
-java -jar frontend-app-1.0.0-RELEASE.jar --spring.profiles.active=dev
+java -jar target/frontend-app-1.0.0-RELEASE.jar --spring.profiles.active=dev
 ```
 In development mode, the backend will run on port `8080`.
 
@@ -35,7 +35,7 @@ To launch the frontend you can run the application from the IDE **or** package i
 Navigate to the `notes-frontend` folder and run the following commands:
 ```bash
 mvn clean package
-java -jar backend-app-1.0.0-RELEASE.jar --spring.profiles.active=dev
+java -jar target/backend-app-1.0.0-RELEASE.jar --spring.profiles.active=dev
 ```
 
 In development mode, the frontend will run on port `8081`.

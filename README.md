@@ -56,5 +56,5 @@ To run the tests you can simply run the following command:
 ```bash
 mvn test
 ```
-These integration tests connect to the actual backend and database.
-**Important:** Make sure both the backend service and the database are running before executing tests, or they will fail.
+These integration tests connect to the actual development backend and database.
+**Important:** Make sure both the development backend service and the database are running before executing tests, or they will fail.

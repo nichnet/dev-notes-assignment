@@ -63,3 +63,7 @@ mvn test
 These integration tests connect to the actual development backend and database.
 
 **Important:** Make sure both the development backend service and the database are running before executing tests, or they will fail.
+
+<p align="center">
+  <img src="https://github.com/nichnet/dev-notes-assignment/blob/main/images/tests.png?raw=true" style="width: 400px;"/>
+</p>

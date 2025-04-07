@@ -42,6 +42,7 @@ In development mode, the frontend will run on port `8081`.
 
 ## Building for Production
 To create and launch the containerized production-ready app, navigate to the `production` folder and run the following command:
+**Important:** You may have to delete the existing development database container first.
 ```bash
 docker-compose up --build
 ```
